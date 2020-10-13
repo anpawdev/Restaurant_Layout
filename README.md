@@ -18,10 +18,12 @@ Clone repository
 ``
 git clone git@github.com:AnnaPawlik/Restaurant_Layout.git
 ``
+
 Install dependencies
 ``
 npm install
 ``
+
 Running development
 ``
 // in main folder
