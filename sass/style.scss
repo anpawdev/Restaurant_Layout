@@ -1,0 +1,85 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    color: #fff;
+}
+
+a {
+    color: #fff;
+}
+
+header {
+    height: 100vh;
+    background: url(../images/page1-img1.jpg) no-repeat left top;
+    text-align: center;
+
+    .navbar {
+        border-bottom: 1px solid #45494D;
+        color: #fff;
+        padding: 22px;
+        font: 600 14px/28px 'Montserrat',sans-serif;
+
+        .navbar-brand {
+            font: bold 20px/50px 'Libre Baskerville',serif;
+            letter-spacing: 4px;
+            text-transform: uppercase;
+            color: #d4cba5;
+        }
+
+        .main-nav {
+            
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+
+            .nav-item {
+
+                .active {
+                    color: #d4cba5;
+                    background-color: transparent;
+                    font-weight: bold;
+                }
+
+                .nav-link:hover {
+                    color: #d4cba5;
+                    transition: linear 0.3s;
+                }
+            }
+
+            .icon {
+                display: inline-block;
+                padding: 8px 16px;
+                cursor: pointer;
+
+                &:hover {
+                    color: #d4cba5;
+                    transition: linear 0.3s;
+                }
+            }
+        }
+        .social-media {
+            border-left: 1px solid #45494D;
+            padding-left: 12px;
+
+            [class*="fab"] {
+                padding: 12px;
+
+                &:hover {
+                    color: #d4cba5;
+                    transition: linear 0.3s;
+                }
+            }
+        }
+
+        
+    }
+
+    
+}
+
+
+
