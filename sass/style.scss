@@ -1,41 +1,47 @@
+
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
 
-body {
+a {
     color: #fff;
 }
 
-a {
-    color: #fff;
+h1 {
+    letter-spacing: 10px;
+    margin-bottom: 18px;
+} 
+
+section {
+    margin-top: 100px;
+}
+
+.img-item {
+    width: 315.75px;
+    height: 315.75px;
+    margin: 0 10px;
 }
 
 header {
     height: 100vh;
     background: url(../images/page1-img1.jpg) no-repeat left top;
-    text-align: center;
+    color: #fff;
 
     .navbar {
         border-bottom: 1px solid #45494D;
-        color: #fff;
         padding: 22px;
         font: 600 14px/28px 'Montserrat',sans-serif;
 
         .navbar-brand {
             font: bold 20px/50px 'Libre Baskerville',serif;
             letter-spacing: 4px;
-            text-transform: uppercase;
             color: #d4cba5;
         }
 
         .main-nav {
-            
-            display: flex;
-            justify-content: flex-end;
-            align-items: center;
-
+  
             .nav-item {
 
                 .active {
@@ -59,8 +65,18 @@ header {
                     color: #d4cba5;
                     transition: linear 0.3s;
                 }
+
+                &:active {
+                    color: #45494D;
+                }
+            }
+
+            .show > .nav-link {
+                background-color: #d4cba5;
+                color: #45494D;
             }
         }
+
         .social-media {
             border-left: 1px solid #45494D;
             padding-left: 12px;
@@ -73,13 +89,32 @@ header {
                     transition: linear 0.3s;
                 }
             }
-        }
-
-        
+        } 
     }
 
-    
+    .menu_slogan {
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-family: 'Cormorant Garamond', serif;
+        letter-spacing: 1.5px;
+
+        .menu_contact {
+            margin-top: 120px;
+            letter-spacing: 2px;
+        }
+    }
 }
 
+.main_content_img {
 
+    .figure:nth-child(2) > img {
+        position: relative;
+        top: 30%;
+    }
 
+    .figure:nth-child(4) > img {
+        position: relative;
+        top: 30%;
+    }
+}
