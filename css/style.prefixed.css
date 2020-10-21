@@ -24,7 +24,7 @@ section {
 .img-item {
   width: 315.75px;
   height: 315.75px;
-  margin: 0 15px;
+  margin: 15px;
 }
 
 header {
@@ -125,12 +125,22 @@ header .menu-slogan .menu_contact {
   margin-top: 50px;
 }
 
-.main-content-menu .menu .menu-item .menu-item-text {
+.main-content-menu .menu .menu-item:not(.first) {
+  border-top: 1px dotted #434851;
+}
+
+.main-content-menu .menu .menu-item-text {
   font-size: 15px;
 }
 
 .main-content-menu .menu .menu-item-price {
   color: #d4cba5;
   font-family: 'Bellefair', serif;
+}
+
+@media (max-width: 991px) {
+  .menu .menu-item {
+    border-top: 1px dotted #434851;
+  }
 }
 /*# sourceMappingURL=style.prefixed.css.map */

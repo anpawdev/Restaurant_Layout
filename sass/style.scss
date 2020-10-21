@@ -25,7 +25,7 @@ section {
 .img-item {
     width: 315.75px;
     height: 315.75px;
-    margin: 0 15px;
+    margin: 15px;
 }
 
 header {
@@ -137,13 +137,12 @@ header {
     .menu {
         margin-top: 50px;
 
-        .menu-item {
-            // border-bottom: 1px dotted #434851;
-    
-            .menu-item-text {
-                font-size: 15px;
-            }
+        .menu-item:not(.first) {
+            border-top: 1px dotted #434851;
+        }
 
+        .menu-item-text {
+            font-size: 15px;
         }
 
         .menu-item-price {
@@ -152,4 +151,13 @@ header {
         }
     }
     
+}
+
+@media (max-width: 991px) {
+    .menu {
+
+        .menu-item {
+            border-top: 1px dotted #434851;
+        }
+    }
 }
