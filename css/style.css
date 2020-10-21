@@ -4,6 +4,10 @@
   padding: 0;
 }
 
+body {
+  font-family: 'Cormorant Garamond', serif;
+}
+
 a {
   color: #fff;
 }
@@ -14,13 +18,13 @@ h1 {
 }
 
 section {
-  margin-top: 100px;
+  padding: 100px 0 30px 0;
 }
 
 .img-item {
   width: 315.75px;
   height: 315.75px;
-  margin: 0 10px;
+  margin: 0 15px;
 }
 
 header {
@@ -86,31 +90,48 @@ header .navbar .social-media [class*="fab"]:hover {
   transition: linear 0.3s;
 }
 
-header .menu_slogan {
+header .menu-slogan {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  font-family: 'Cormorant Garamond', serif;
   letter-spacing: 1.5px;
 }
 
-header .menu_slogan .menu_contact {
+header .menu-slogan .menu_contact {
   margin-top: 120px;
   letter-spacing: 2px;
 }
 
-.main_content_img .figure:nth-child(1) > img {
+.main-content-img .figure:nth-child(1) > img {
   position: relative;
   bottom: 20%;
 }
 
-.main_content_img .figure:nth-child(3) > img {
+.main-content-img .figure:nth-child(3) > img {
   position: relative;
   bottom: 20%;
 }
 
-.main_content .sign-item {
+.main-content .sign-item {
   font-family: 'Dancing Script', cursive;
+}
+
+.main-content-menu {
+  background-color: #171C22;
+  color: #fff;
+}
+
+.main-content-menu .menu {
+  margin-top: 50px;
+}
+
+.main-content-menu .menu .menu-item .menu-item-text {
+  font-size: 15px;
+}
+
+.main-content-menu .menu .menu-item-price {
+  color: #d4cba5;
+  font-family: 'Bellefair', serif;
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -5,6 +5,10 @@
     padding: 0;
 }
 
+body {
+    font-family: 'Cormorant Garamond', serif;
+}
+
 a {
     color: #fff;
 }
@@ -15,13 +19,13 @@ h1 {
 } 
 
 section {
-    margin-top: 100px;
+    padding: 100px 0 30px 0;
 }
 
 .img-item {
     width: 315.75px;
     height: 315.75px;
-    margin: 0 10px;
+    margin: 0 15px;
 }
 
 header {
@@ -30,6 +34,7 @@ header {
     color: #fff;
 
     .navbar {
+        // position: fixed;
         border-bottom: 1px solid #45494D;
         padding: 22px;
         font: 600 14px/28px 'Montserrat',sans-serif;
@@ -41,7 +46,7 @@ header {
         }
 
         .main-nav {
-  
+ 
             .nav-item {
 
                 .active {
@@ -92,11 +97,10 @@ header {
         } 
     }
 
-    .menu_slogan {
+    .menu-slogan {
         top: 50%;
         left: 50%;
         transform: translate(-50%, -50%);
-        font-family: 'Cormorant Garamond', serif;
         letter-spacing: 1.5px;
 
         .menu_contact {
@@ -106,7 +110,7 @@ header {
     }
 }
 
-.main_content_img {
+.main-content-img {
 
     .figure:nth-child(1) > img {
         position: relative;
@@ -119,9 +123,33 @@ header {
     }
 }
 
-.main_content {
+.main-content {
 
     .sign-item {
         font-family: 'Dancing Script', cursive;
     }
+}
+
+.main-content-menu {
+    background-color: #171C22;
+    color: #fff;
+
+    .menu {
+        margin-top: 50px;
+
+        .menu-item {
+            // border-bottom: 1px dotted #434851;
+    
+            .menu-item-text {
+                font-size: 15px;
+            }
+
+        }
+
+        .menu-item-price {
+            color: #d4cba5;
+            font-family: 'Bellefair', serif;
+        }
+    }
+    
 }
