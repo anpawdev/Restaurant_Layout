@@ -33,70 +33,6 @@ header {
     background: url(../images/page1-img1.jpg) no-repeat left top;
     color: #fff;
 
-    .navbar {
-        // position: fixed;
-        border-bottom: 1px solid #45494D;
-        padding: 22px;
-        font: 600 14px/28px 'Montserrat',sans-serif;
-
-        .navbar-brand {
-            font: bold 20px/50px 'Libre Baskerville',serif;
-            letter-spacing: 4px;
-            color: #d4cba5;
-        }
-
-        .main-nav {
- 
-            .nav-item {
-
-                .active {
-                    color: #d4cba5;
-                    background-color: transparent;
-                    font-weight: bold;
-                }
-
-                .nav-link:hover {
-                    color: #d4cba5;
-                    transition: linear 0.3s;
-                }
-            }
-
-            .icon {
-                display: inline-block;
-                padding: 8px 16px;
-                cursor: pointer;
-
-                &:hover {
-                    color: #d4cba5;
-                    transition: linear 0.3s;
-                }
-
-                &:active {
-                    color: #45494D;
-                }
-            }
-
-            .show > .nav-link {
-                background-color: #d4cba5;
-                color: #45494D;
-            }
-        }
-
-        .social-media {
-            border-left: 1px solid #45494D;
-            padding-left: 12px;
-
-            [class*="fab"] {
-                padding: 12px;
-
-                &:hover {
-                    color: #d4cba5;
-                    transition: linear 0.3s;
-                }
-            }
-        } 
-    }
-
     .menu-slogan {
         top: 50%;
         left: 50%;
@@ -109,6 +45,72 @@ header {
         }
     }
 }
+
+.navbar {
+    border-bottom: 1px solid #45494D;
+    padding: 22px;
+    font: 600 14px/28px 'Montserrat',sans-serif;
+
+    .navbar-brand {
+        font: bold 20px/50px 'Libre Baskerville',serif;
+        letter-spacing: 4px;
+        color: #d4cba5;
+    }
+
+    .main-nav {
+
+        .nav-item {
+
+            .active {
+                color: #d4cba5;
+                background-color: transparent;
+                font-weight: bold;
+            }
+
+            .nav-link:hover {
+                color: #d4cba5;
+                transition: linear 0.3s;
+            }
+        }
+
+        .icon {
+            display: inline-block;
+            padding: 8px 16px;
+            cursor: pointer;
+
+            &:hover {
+                color: #d4cba5;
+                transition: linear 0.3s;
+            }
+
+            &:active {
+                color: #45494D;
+            }
+        }
+
+        .show > .nav-link {
+            background-color: #d4cba5;
+            color: #45494D;
+        }
+    }
+
+    .social-media {
+        border-left: 1px solid #45494D;
+        padding-left: 12px;
+
+        [class*="fab"] {
+            padding: 12px;
+
+            &:hover {
+                color: #d4cba5;
+                transition: linear 0.3s;
+            }
+        }
+    } 
+}
+
+    
+
 
 .main-content-img {
 
@@ -151,6 +153,22 @@ header {
         }
     }
     
+}
+
+.booking-wrapper {
+    background: url('../images/page5-img1.jpg') no-repeat fixed;
+    color: #fff;
+
+    .booking {
+        border: 1px solid #45494D;
+        padding: 40px;
+        background-color: rgba(#1D2023, 0.7);
+        width: 50%;
+    }
+}
+
+footer {
+    background-color: #171C22;
 }
 
 @media (max-width: 991px) {

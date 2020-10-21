@@ -33,63 +33,6 @@ header {
   color: #fff;
 }
 
-header .navbar {
-  border-bottom: 1px solid #45494D;
-  padding: 22px;
-  font: 600 14px/28px 'Montserrat',sans-serif;
-}
-
-header .navbar .navbar-brand {
-  font: bold 20px/50px 'Libre Baskerville',serif;
-  letter-spacing: 4px;
-  color: #d4cba5;
-}
-
-header .navbar .main-nav .nav-item .active {
-  color: #d4cba5;
-  background-color: transparent;
-  font-weight: bold;
-}
-
-header .navbar .main-nav .nav-item .nav-link:hover {
-  color: #d4cba5;
-  transition: linear 0.3s;
-}
-
-header .navbar .main-nav .icon {
-  display: inline-block;
-  padding: 8px 16px;
-  cursor: pointer;
-}
-
-header .navbar .main-nav .icon:hover {
-  color: #d4cba5;
-  transition: linear 0.3s;
-}
-
-header .navbar .main-nav .icon:active {
-  color: #45494D;
-}
-
-header .navbar .main-nav .show > .nav-link {
-  background-color: #d4cba5;
-  color: #45494D;
-}
-
-header .navbar .social-media {
-  border-left: 1px solid #45494D;
-  padding-left: 12px;
-}
-
-header .navbar .social-media [class*="fab"] {
-  padding: 12px;
-}
-
-header .navbar .social-media [class*="fab"]:hover {
-  color: #d4cba5;
-  transition: linear 0.3s;
-}
-
 header .menu-slogan {
   top: 50%;
   left: 50%;
@@ -100,6 +43,63 @@ header .menu-slogan {
 header .menu-slogan .menu_contact {
   margin-top: 120px;
   letter-spacing: 2px;
+}
+
+.navbar {
+  border-bottom: 1px solid #45494D;
+  padding: 22px;
+  font: 600 14px/28px 'Montserrat',sans-serif;
+}
+
+.navbar .navbar-brand {
+  font: bold 20px/50px 'Libre Baskerville',serif;
+  letter-spacing: 4px;
+  color: #d4cba5;
+}
+
+.navbar .main-nav .nav-item .active {
+  color: #d4cba5;
+  background-color: transparent;
+  font-weight: bold;
+}
+
+.navbar .main-nav .nav-item .nav-link:hover {
+  color: #d4cba5;
+  transition: linear 0.3s;
+}
+
+.navbar .main-nav .icon {
+  display: inline-block;
+  padding: 8px 16px;
+  cursor: pointer;
+}
+
+.navbar .main-nav .icon:hover {
+  color: #d4cba5;
+  transition: linear 0.3s;
+}
+
+.navbar .main-nav .icon:active {
+  color: #45494D;
+}
+
+.navbar .main-nav .show > .nav-link {
+  background-color: #d4cba5;
+  color: #45494D;
+}
+
+.navbar .social-media {
+  border-left: 1px solid #45494D;
+  padding-left: 12px;
+}
+
+.navbar .social-media [class*="fab"] {
+  padding: 12px;
+}
+
+.navbar .social-media [class*="fab"]:hover {
+  color: #d4cba5;
+  transition: linear 0.3s;
 }
 
 .main-content-img .figure:nth-child(1) > img {
@@ -136,6 +136,22 @@ header .menu-slogan .menu_contact {
 .main-content-menu .menu .menu-item-price {
   color: #d4cba5;
   font-family: 'Bellefair', serif;
+}
+
+.booking-wrapper {
+  background: url("../images/page5-img1.jpg") no-repeat fixed;
+  color: #fff;
+}
+
+.booking-wrapper .booking {
+  border: 1px solid #45494D;
+  padding: 40px;
+  background-color: rgba(29, 32, 35, 0.7);
+  width: 50%;
+}
+
+footer {
+  background-color: #171C22;
 }
 
 @media (max-width: 991px) {
