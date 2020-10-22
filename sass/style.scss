@@ -19,7 +19,7 @@ h1 {
 } 
 
 section {
-    padding: 100px 0 30px 0;
+    padding: 50px 0;
 }
 
 .img-item {
@@ -31,7 +31,6 @@ section {
 header {
     height: 100vh;
     background: url(../images/page1-img1.jpg) no-repeat left top;
-    color: #fff;
 
     .menu-slogan {
         top: 50%;
@@ -50,6 +49,8 @@ header {
     border-bottom: 1px solid #45494D;
     padding: 22px;
     font: 600 14px/28px 'Montserrat',sans-serif;
+    background-color: rgba(#171C22, 0.9);
+    z-index: 999;
 
     .navbar-brand {
         font: bold 20px/50px 'Libre Baskerville',serif;
@@ -68,14 +69,13 @@ header {
             }
 
             .nav-link:hover {
-                color: #d4cba5;
+                background-color: #d4cba5;
+                color: #fff;
                 transition: linear 0.3s;
             }
         }
 
         .icon {
-            display: inline-block;
-            padding: 8px 16px;
             cursor: pointer;
 
             &:hover {
@@ -90,6 +90,10 @@ header {
 
         .show > .nav-link {
             background-color: #d4cba5;
+            color: #45494D;
+        }
+
+        [class*="label"] {
             color: #45494D;
         }
     }
@@ -109,18 +113,13 @@ header {
     } 
 }
 
-    
-
-
 .main-content-img {
 
     .figure:nth-child(1) > img {
-        position: relative;
         bottom: 20%;
     }
 
     .figure:nth-child(3) > img {
-        position: relative;
         bottom: 20%;
     }
 }
@@ -134,7 +133,6 @@ header {
 
 .main-content-menu {
     background-color: #171C22;
-    color: #fff;
 
     .menu {
         margin-top: 50px;
@@ -156,8 +154,7 @@ header {
 }
 
 .booking-wrapper {
-    background: url('../images/page5-img1.jpg') no-repeat fixed;
-    color: #fff;
+    background: url('../images/page1-img1.jpg') no-repeat bottom fixed;
 
     .booking {
         border: 1px solid #45494D;
@@ -165,10 +162,6 @@ header {
         background-color: rgba(#1D2023, 0.7);
         width: 50%;
     }
-}
-
-footer {
-    background-color: #171C22;
 }
 
 @media (max-width: 991px) {

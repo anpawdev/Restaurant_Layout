@@ -18,7 +18,7 @@ h1 {
 }
 
 section {
-  padding: 100px 0 30px 0;
+  padding: 50px 0;
 }
 
 .img-item {
@@ -30,7 +30,6 @@ section {
 header {
   height: 100vh;
   background: url(../images/page1-img1.jpg) no-repeat left top;
-  color: #fff;
 }
 
 header .menu-slogan {
@@ -49,6 +48,8 @@ header .menu-slogan .menu_contact {
   border-bottom: 1px solid #45494D;
   padding: 22px;
   font: 600 14px/28px 'Montserrat',sans-serif;
+  background-color: rgba(23, 28, 34, 0.9);
+  z-index: 999;
 }
 
 .navbar .navbar-brand {
@@ -64,13 +65,12 @@ header .menu-slogan .menu_contact {
 }
 
 .navbar .main-nav .nav-item .nav-link:hover {
-  color: #d4cba5;
+  background-color: #d4cba5;
+  color: #fff;
   transition: linear 0.3s;
 }
 
 .navbar .main-nav .icon {
-  display: inline-block;
-  padding: 8px 16px;
   cursor: pointer;
 }
 
@@ -85,6 +85,10 @@ header .menu-slogan .menu_contact {
 
 .navbar .main-nav .show > .nav-link {
   background-color: #d4cba5;
+  color: #45494D;
+}
+
+.navbar .main-nav [class*="label"] {
   color: #45494D;
 }
 
@@ -103,12 +107,10 @@ header .menu-slogan .menu_contact {
 }
 
 .main-content-img .figure:nth-child(1) > img {
-  position: relative;
   bottom: 20%;
 }
 
 .main-content-img .figure:nth-child(3) > img {
-  position: relative;
   bottom: 20%;
 }
 
@@ -118,7 +120,6 @@ header .menu-slogan .menu_contact {
 
 .main-content-menu {
   background-color: #171C22;
-  color: #fff;
 }
 
 .main-content-menu .menu {
@@ -139,8 +140,7 @@ header .menu-slogan .menu_contact {
 }
 
 .booking-wrapper {
-  background: url("../images/page5-img1.jpg") no-repeat fixed;
-  color: #fff;
+  background: url("../images/page1-img1.jpg") no-repeat bottom fixed;
 }
 
 .booking-wrapper .booking {
@@ -148,10 +148,6 @@ header .menu-slogan .menu_contact {
   padding: 40px;
   background-color: rgba(29, 32, 35, 0.7);
   width: 50%;
-}
-
-footer {
-  background-color: #171C22;
 }
 
 @media (max-width: 991px) {

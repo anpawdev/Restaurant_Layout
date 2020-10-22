@@ -12,8 +12,8 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <header class="text-center">
-        <nav class="navbar navbar-expand-lg container-fluid">
+    <header class="text-center text-white">
+        <nav class="navbar navbar-expand-lg container-fluid position-fixed">
             <div class="container">
                 <div class="logo col-lg-2">
                      <a class="navbar-brand text-uppercase" href="#">
@@ -52,17 +52,50 @@
                             <a class="nav-link" href="#">Contact</a>
                         </li>
                     </ul>
-                    <span class="icon user_login">
-                        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-person-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                            <path fill-rule="evenodd" d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/>
-                        </svg>
-                    </span>
-                    <span class="icon search">
-                        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-search" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                            <path fill-rule="evenodd" d="M10.442 10.442a1 1 0 0 1 1.415 0l3.85 3.85a1 1 0 0 1-1.414 1.415l-3.85-3.85a1 1 0 0 1 0-1.415z"/>
-                            <path fill-rule="evenodd" d="M6.5 12a5.5 5.5 0 1 0 0-11 5.5 5.5 0 0 0 0 11zM13 6.5a6.5 6.5 0 1 1-13 0 6.5 6.5 0 0 1 13 0z"/>
-                        </svg>
-                    </span>
+                    <button type="button" class="btn btn-outline-link btn-small d-inline" data-toggle="modal" data-target="#modal">
+                        <span class="icon user_login">
+                            <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-person-fill" fill="#fff" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/>
+                            </svg>
+                        </span>
+                    </button>
+                    <div class="modal fade label" id="modal" tabindex="-1" aria-labelledby="modalLabel" aria-hidden="true">
+                        <div class="modal-dialog text-left">
+                          <div class="modal-content">
+                            <div class="modal-header">
+                              <h5 class="modal-title" id="modalLabel">Sign in</h5>
+                              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                              </button>
+                            </div>
+                            <div class="modal-body">
+                                <form>
+                                    <div class="form-group">
+                                      <label for="input-email">Username</label>
+                                      <input type="email" class="form-control" id="input-email" aria-describedby="emailHelp">
+                                    </div>
+                                    <div class="form-group">
+                                      <label for="input-password">Password
+                                        <a href="#" class="form-label nav-link d-inline">Forgot a password?</a>
+                                      </label>
+                                      <input type="password" class="form-control" id="input-password">
+                                    </div>
+                                    <div class="form-group form-check">
+                                      <input type="checkbox" class="form-check-input" id="check">
+                                      <label class="form-check-label" for="check">Remember me</label>
+                                    </div>
+                                    <button type="submit" class="btn btn-outline-dark">Submit</button>
+                                    <div class="form-group text-right">
+                                        <a href="#" class="form-label nav-link">New client? Create an account</a>
+                                    </div>
+                                </form>
+                            </div>
+                            <div class="modal-footer">
+                              <button type="button" class="btn btn-dark" data-dismiss="modal">Close</button>
+                            </div>
+                          </div>
+                        </div>
+                    </div>
                 </div>
                 <div class="social-media col-lg-2">
                     <a href="#"><i class="fab fa-facebook-f"></i></a>
@@ -99,13 +132,13 @@
     <section class="main-content-img d-flex justify-content-around container-fluid col-lg-4-12">
         <div class="row">
             <figure class="figure">
-                <img src="images/page2-img1.jpg" class="figure-img img-fluid rounded img-item" alt="img-item">
+                <img src="images/page2-img1.jpg" class="figure-img img-fluid position-relative rounded img-item" alt="img-item">
             </figure>
             <figure class="figure">
                 <img src="images/page2-img2.jpg" class="figure-img img-fluid rounded img-item" alt="img-item">
             </figure>
             <figure class="figure">
-                <img src="images/page2-img3.jpg" class="figure-img img-fluid rounded img-item" alt="img-item">
+                <img src="images/page2-img3.jpg" class="figure-img img-fluid position-relative rounded img-item" alt="img-item">
             </figure>
             <figure class="figure">
                 <img src="images/page2-img4.jpg" class="figure-img img-fluid rounded img-item" alt="img-item">
@@ -123,7 +156,7 @@
             </div>
         </div>
     </section>
-    <section class="main-content-menu container-fluid text-center">
+    <section class="main-content-menu container-fluid text-center text-white">
         <div class="row">
             <div class="container">
                 <h1 class="display-5 text-uppercase">Menu</h1>
@@ -269,7 +302,7 @@
             </div>
         </div>
     </section>
-    <section class="booking-wrapper container-fluid col-lg-12">
+    <section class="booking-wrapper container-fluid col-lg-12 text-white">
        <div class="booking text-center container">
             <p class="lead text-uppercase">Book online</p>
             <button type="button" class="btn btn-outline-light btn-lg">Book now</button>
@@ -277,7 +310,7 @@
             <p class="lead">Mo-Fr 10:00-23:00, Sa-Sa 12:00-00:00</p>
        </div>
     </section>
-    <footer class="footer navbar navbar-expand-lg container-fluid">
+    <footer class="footer navbar navbar-expand-lg container-fluid position-absolute">
         <div class="container">
             <div class="logo col-lg-2">
                  <a class="navbar-brand text-uppercase" href="#">
