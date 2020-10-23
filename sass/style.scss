@@ -43,6 +43,10 @@ header {
             letter-spacing: 2px;
         }
     }
+
+    .mobile {
+        display: none;
+    }
 }
 
 .navbar {
@@ -172,3 +176,17 @@ header {
         }
     }
 }
+
+@media (max-width: 768px) { 
+
+    header {
+
+        .mobile {
+            display: block;
+        }
+
+        .navbar-desktop {
+            display: none;
+        }
+    } 
+ }

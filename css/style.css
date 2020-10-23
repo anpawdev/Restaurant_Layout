@@ -44,6 +44,10 @@ header .menu-slogan .menu_contact {
   letter-spacing: 2px;
 }
 
+header .mobile {
+  display: none;
+}
+
 .navbar {
   border-bottom: 1px solid #45494D;
   padding: 22px;
@@ -153,6 +157,15 @@ header .menu-slogan .menu_contact {
 @media (max-width: 991px) {
   .menu .menu-item {
     border-top: 1px dotted #434851;
+  }
+}
+
+@media (max-width: 768px) {
+  header .mobile {
+    display: block;
+  }
+  header .navbar-desktop {
+    display: none;
   }
 }
 
