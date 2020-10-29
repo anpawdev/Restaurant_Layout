@@ -183,10 +183,14 @@ header {
 
         .mobile {
             display: block;
+
+            .navbar {
+                border-bottom: none;
+            }
         }
 
-        .navbar-desktop {
+        .desktop {
             display: none;
         }
-    } 
- }
+    }
+}

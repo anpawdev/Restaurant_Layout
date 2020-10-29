@@ -164,7 +164,10 @@ header .mobile {
   header .mobile {
     display: block;
   }
-  header .navbar-desktop {
+  header .mobile .navbar {
+    border-bottom: none;
+  }
+  header .desktop {
     display: none;
   }
 }
