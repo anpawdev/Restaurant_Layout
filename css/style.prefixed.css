@@ -187,5 +187,8 @@ header .mobile {
   .main-content-img .figure:nth-child(3) > img {
     bottom: 0;
   }
+  .footer .social-media {
+    border: none;
+  }
 }
 /*# sourceMappingURL=style.prefixed.css.map */
