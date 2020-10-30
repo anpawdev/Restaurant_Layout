@@ -26,7 +26,7 @@ section {
 .img-item {
     width: 315.75px;
     height: 315.75px;
-    margin: 15px;
+    padding: 10px;
 }
 
 header {
@@ -166,7 +166,7 @@ header {
         border: 1px solid #45494D;
         padding: 40px;
         background-color: rgba(#1D2023, 0.7);
-        width: 50%;
+        min-width: 50%;
     }
 }
 
@@ -206,6 +206,17 @@ header {
             .menu_contact {
                 display: none;
             }
+        }
+    }
+
+    .main-content-img {
+
+        .figure:nth-child(1) > img {
+            bottom: 0;
+        }
+
+        .figure:nth-child(3) > img {
+            bottom: 0;
         }
     }
 }

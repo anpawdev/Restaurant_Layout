@@ -26,7 +26,7 @@ section {
 .img-item {
   width: 315.75px;
   height: 315.75px;
-  margin: 15px;
+  padding: 10px;
 }
 
 header {
@@ -154,7 +154,7 @@ header .mobile {
   border: 1px solid #45494D;
   padding: 40px;
   background-color: rgba(29, 32, 35, 0.7);
-  width: 50%;
+  min-width: 50%;
 }
 
 @media (max-width: 991px) {
@@ -180,6 +180,12 @@ header .mobile {
   }
   header .menu-slogan .menu_contact {
     display: none;
+  }
+  .main-content-img .figure:nth-child(1) > img {
+    bottom: 0;
+  }
+  .main-content-img .figure:nth-child(3) > img {
+    bottom: 0;
   }
 }
 /*# sourceMappingURL=style.prefixed.css.map */
