@@ -13,12 +13,14 @@ a {
 }
 
 h1 {
+  font-size: calc(1.5em + 1.5vw);
   letter-spacing: 10px;
   margin-bottom: 18px;
 }
 
 section {
   padding: 50px 0;
+  overflow: hidden;
 }
 
 .img-item {
@@ -37,10 +39,11 @@ header .menu-slogan {
   left: 50%;
   transform: translate(-50%, -50%);
   letter-spacing: 1.5px;
+  margin-top: 60px;
 }
 
 header .menu-slogan .menu_contact {
-  margin-top: 120px;
+  margin-top: 100px;
   letter-spacing: 2px;
 }
 
@@ -167,7 +170,15 @@ header .mobile {
   header .mobile .navbar {
     border-bottom: none;
   }
+  header .mobile .btn-mobile {
+    position: absolute;
+    right: 0;
+    top: 1%;
+  }
   header .desktop {
+    display: none;
+  }
+  header .menu-slogan .menu_contact {
     display: none;
   }
 }
