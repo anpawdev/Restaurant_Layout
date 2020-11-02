@@ -10,7 +10,7 @@ Simple restaurant wesite
 
 ## Getting started:
 
-Vistit:
+Vistit: https://annapawlik.github.io/Restaurant_Layout/
 
 OR 
 
