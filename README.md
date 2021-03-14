@@ -1,6 +1,6 @@
 # Restaurant_Layout
 
-Simple restaurant wesite
+Simple restaurant website
 
 ## Technology:
 - HTML5
@@ -10,7 +10,7 @@ Simple restaurant wesite
 
 ## Getting started:
 
-Vistit: https://annapawlik.github.io/Restaurant_Layout/
+Visit: https://annapawlik.github.io/Restaurant_Layout/
 
 OR 
 
